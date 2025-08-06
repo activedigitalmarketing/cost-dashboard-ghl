@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force SVG sizing */
+svg[style*="width"] {
+  width: var(--svg-width) !important;
+  height: var(--svg-height) !important;
+}
